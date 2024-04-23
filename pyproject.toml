@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Vlcek"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "8.1.1"
+
+[tool.poetry.scripts]
+dev = "test_runner:main"
+test = "test_runner:main"
+stage = "test_runner:main"
+local_dev = "test_runner:main"
+local_test = 'test_runner:main'
+local_stage = 'test_runner:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

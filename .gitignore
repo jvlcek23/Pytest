@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Cached files
+__pycache__/
+/test/__pycache__
+.pytest_cache
+
+# Dependency files
+poetry.lock
+
+# Temporary files
+*.pyc
+*.pyo
+*.~*
+
+# IDE-specific files
+.vscode/
+
+#Env
+.local.env
